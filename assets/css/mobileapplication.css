@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #168b8f;
+}
+
+#logo p {
+  margin-left: 5%;
+  margin-top: 3%;
+}
+#logo p a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  opacity: 80%;
+}
+
+#main {
+  overflow-x: hidden;
+}
+#main .rows {
+  display: flex;
+}
+#main p {
+  color: #fff;
+  font-size: 55px;
+  width: 550px;
+  text-align: start;
+  margin-left: 25%;
+  margin-top: 10%;
+  opacity: 90%;
+  line-height: 140%;
+  font-family: Geneva, Verdana, sans-serif;
+  margin: 15% 15% 10% 20%;
+}
+#main a {
+  color: #000;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 15%;
+  border-radius: 45px;
+  background-color: #85f6fa;
+  padding: 20px 100px 20px 100px;
+  width: 50%;
+}
+#main .image img {
+  height: 700px;
+  width: 600px;
+}
+
+.tracking-in-expand-forward-bottom {
+  -webkit-animation: tracking-in-expand-forward-bottom 2s linear both;
+          animation: tracking-in-expand-forward-bottom 2s linear both;
+}
+
+@-webkit-keyframes tracking-in-expand-forward-bottom {
+  0% {
+    letter-spacing: -0.2em;
+    transform: translateZ(-700px) translateY(100px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand-forward-bottom {
+  0% {
+    letter-spacing: -0.2em;
+    transform: translateZ(-700px) translateY(100px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 400px) {
+  #logo p a {
+    font-size: 20px;
+  }
+  #main p {
+    font-size: 20px;
+    line-height: 190%;
+    width: 250px;
+    margin: 10% 10% 50% 5%;
+  }
+  #main a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 15%;
+    border-radius: 45px;
+    background-color: #85f6fa;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+  }
+  #main .image {
+    margin-left: 5%;
+  }
+  #main .image img {
+    height: 250px;
+    width: 150px;
+  }
+}/*# sourceMappingURL=mobileapplication.css.map */
