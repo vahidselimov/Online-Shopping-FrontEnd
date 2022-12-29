@@ -1,4 +1,4 @@
-$('.icones-carousel').slick({    
+$('.icones-carousel').slick({
     nextArrow: '<i class="fas fa-chevron-right slick-next"></i>',
     prevArrow: '<i class="fas fa-chevron-left slick-prev"></i>',
     autoplay: false,
@@ -17,6 +17,33 @@ $('.icones-carousel').slick({
             arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            }
-        }]
-  });
+        }
+    }]
+});
+const div = document.getElementById('offline');
+const div2 = document.getElementById('online')
+
+window.addEventListener('online', () => {
+    div.style.display = 'none'
+    setTimeout(() => {
+        div2.style.display = 'block'
+    }, 500);
+    setTimeout(() => {
+        div2.style.display = 'none'
+    }, 4000);
+}
+);
+
+
+
+
+window.addEventListener('offline', () => {
+    setTimeout(() => {
+        div.style.display = 'block'
+    }, 1000);
+    setTimeout(() => {
+        div.style.display = 'none'
+    }, 4000);
+    div2.style.display = 'none'
+
+});

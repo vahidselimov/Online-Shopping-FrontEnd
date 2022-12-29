@@ -3,8 +3,25 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+#offline{
+  background: darkred;
+  color: #fff;
+  padding: 12px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+#online{
+  background:#4c7e96;
+  color: #fff;
+  padding: 12px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+ display: none;
+}
 header {
+  
+
   nav {
     .navbar {
       display: flex;
