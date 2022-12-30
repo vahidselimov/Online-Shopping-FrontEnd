@@ -9008,8 +9008,16 @@ a:hover, a:focus {
   box-shadow: none;
 }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
   line-height: 1.5;
   font-weight: 400;
   font-family: "Poppins", Arial, sans-serif;
@@ -9041,6 +9049,7 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-top: 7%;
 }
 
 .form-control {
@@ -9052,16 +9061,20 @@ h1, h2, h3, h4, h5,
   box-shadow: none !important;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: rgba(0, 0, 0, 0.3) !important;
 }
-.form-control::-moz-placeholder { /* Firefox 19+ */
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
   color: rgba(0, 0, 0, 0.3) !important;
 }
-.form-control:-ms-input-placeholder { /* IE 0+ */
+.form-control:-ms-input-placeholder {
+  /* IE 0+ */
   color: rgba(0, 0, 0, 0.3) !important;
 }
-.form-control:-moz-placeholder { /* Firefox 18- */
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
   color: rgba(0, 0, 0, 0.3) !important;
 }
 .form-control:focus, .form-control:active {
@@ -9078,6 +9091,19 @@ textarea.form-control {
 
 .contact-wrap {
   background: #fff;
+  margin-top: 5%;
+}
+.contact-wrap h3 span {
+  color: #ada9a9;
+  font-family: "Courier New", Courier, monospace;
+}
+.contact-wrap p {
+  color: rgb(153, 5, 5);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contact-wrap p span {
+  color: black;
+  font-size: 30px;
 }
 
 @media (max-width: 767.98px) {
@@ -9176,7 +9202,8 @@ textarea.form-control {
   resize: vertical;
 }
 
-#form-message-warning, #form-message-success {
+#form-message-warning,
+#form-message-success {
   display: none;
 }
 
@@ -9197,4 +9224,41 @@ textarea.form-control {
   display: none;
   font-size: 16px;
   font-weight: bold;
+}
+
+#tab-menu {
+  margin-top: 10%;
+}
+#tab-menu .menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+#tab-menu .menu ul li {
+  list-style: none;
+}
+#tab-menu .menu ul li div {
+  border: 3px solid none;
+  cursor: pointer;
+}
+#tab-menu .menu ul li div p {
+  text-align: center;
+  align-items: center;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#tab-menu .menu hr {
+  border: 1px solid black;
+}
+#tab-menu .menu .active {
+  color: black;
+}
+#tab-menu .menu .active::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 1.5px;
+  background-color: #46b5d1;
+  margin-top: 16px;
+  left: calc(25% - 3px);
 }/*# sourceMappingURL=style.css.map */

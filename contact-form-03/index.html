@@ -9,7 +9,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="../assets/css/extra.css">
 
@@ -29,7 +28,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Online Shopping</h2>
+					<h2 translate="no" class="heading-section">Online Shopping</h2>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -69,57 +68,90 @@
 							</div>
 
 						</div>
-						<div class="row no-gutters">
-							<div class="col-md-7">'
-								<div class="contact-wrap w-100 p-md-5 p-4">
-									<h3 class="mb-4">Əlaqə</h3>
-									<div id="form-message-warning" class="mb-4"></div>
-									<div id="form-message-success" class="mb-4">
-										Mesajınız göndərildi, təşəkkür edirəm!
-									</div>
-									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="name">Ad və Soyad</label>
-													<input type="text" class="form-control" name="name" id="name"
-														placeholder="FullName">
+						<div id="tab-menu">
+							<div class="menu">
+
+								<ul>
+									<li class="col-lg-4 col-md-4 active">
+										<div class="">
+											<p>Iş üçün Əlaqə</p>
+										</div>
+
+									<li class="col-lg-4 col-md-4">
+										<div class="">
+											<p>Problem üçün Əlaqə</p>
+										</div>
+									</li>
+									<li class="col-lg-4 col-md-4">
+										<div class="">
+											<p>Irad və Təkliflər üçün Əlaqə</p>
+										</div>
+									</li>
+									</li>
+								</ul>
+
+							</div>
+							<hr>
+							<div class="body">
+								<div class="item">
+									<div class="row no-gutters">
+										<div class="col-md-7">
+											<div class="contact-wrap w-100 p-md-5 p-4">
+												<h3 class="mb-4">Əlaqə <span> (İş Üçün)</span></h3>
+												<p><span>*</span> Yanlız İşlə Bağlı Olan məsələlərə geri dönüş olacaq</p>
+												<div id="form-message-warning" class="mb-4"></div>
+												<div id="form-message-success" class="mb-4">
+													Mesajınız göndərildi, təşəkkür edirəm!
 												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="form-group">
-													<label class="label" for="email">Email Address</label>
-													<input type="email" class="form-control" name="email" id="email"
-														placeholder="Email">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="subject">Mövzu</label>
-													<input type="text" class="form-control" name="subject" id="subject"
-														placeholder="Mövzu">
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<label class="label" for="#">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30"
-														rows="4" placeholder="Message"></textarea>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<div class="form-group">
-													<input type="submit" value="Mesaj Göndər" class="btn btn-primary">
-													<div class="submitting"></div>
-												</div>
+												<form method="POST" id="contactForm" name="contactForm"
+													class="contactForm">
+													<div class="row">
+														<div class="col-md-6">
+															<div class="form-group">
+																<label class="label" for="name">Ad və Soyad</label>
+																<input type="text" class="form-control" name="name"
+																	id="name" placeholder="FullName">
+															</div>
+														</div>
+														<div class="col-md-6">
+															<div class="form-group">
+																<label class="label" for="email">Email Address</label>
+																<input type="email" class="form-control" name="email"
+																	id="email" placeholder="Email">
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="form-group">
+																<label class="label" for="subject">Mövzu</label>
+																<input type="text" class="form-control" name="subject"
+																	id="subject" placeholder="Mövzu">
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="form-group">
+																<label class="label" for="#">Message</label>
+																<textarea name="message" class="form-control"
+																	id="message" cols="30" rows="4"
+																	placeholder="Message"></textarea>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div class="form-group">
+																<input type="submit" value="Mesaj Göndər"
+																	class="btn btn-primary">
+																<div class="submitting"></div>
+															</div>
+														</div>
+													</div>
+												</form>
 											</div>
 										</div>
-									</form>
-								</div>
-							</div>
-							<div class="col-md-5 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-5 img"
-									style="background-image: url(../assets/image/VS.png);">
+										<div class="col-md-5 d-flex align-items-stretch">
+											<div class="info-wrap w-100 p-5 img"
+												style="background-image: url(../assets/image/VS.png);">
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

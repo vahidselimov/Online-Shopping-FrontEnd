@@ -21,29 +21,26 @@ $('.icones-carousel').slick({
     }]
 });
 const div = document.getElementById('offline');
-const div2 = document.getElementById('online')
+const div2 = document.getElementById('online');
+
+
 
 window.addEventListener('online', () => {
     div.style.display = 'none'
     setTimeout(() => {
         div2.style.display = 'block'
-    }, 500);
+    }, 1000);
     setTimeout(() => {
         div2.style.display = 'none'
-    }, 4000);
+    }, 3000);
 }
 );
-
-
-
-
 window.addEventListener('offline', () => {
+    div2.style.display = 'none'
     setTimeout(() => {
         div.style.display = 'block'
     }, 1000);
     setTimeout(() => {
         div.style.display = 'none'
-    }, 4000);
-    div2.style.display = 'none'
-
+    }, 8000);
 });

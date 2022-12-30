@@ -48,6 +48,7 @@ body {
 #main .image img {
   height: 700px;
   width: 600px;
+  display: block;
 }
 
 .tracking-in-expand-forward-bottom {
