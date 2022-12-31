@@ -9261,4 +9261,14 @@ textarea.form-control {
   background-color: #46b5d1;
   margin-top: 16px;
   left: calc(25% - 3px);
+}
+#tab-menu .online.chat.contact {
+  color: dodgerblue;
+  padding: 0 0 20px;
+}
+#tab-menu .online.chat.contact .online.chat {
+  color: #46b5d1;
+  font-size: 15px;
+  font-style: inherit;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

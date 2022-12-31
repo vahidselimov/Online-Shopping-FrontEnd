@@ -317,7 +317,16 @@ textarea.form-control {
 			left: calc(25% - 3px);
 		}
 	}
-
+.online.chat.contact{
+color: dodgerblue;
+padding: 0 0 20px;
+.online.chat{
+	color: #46b5d1;
+	font-size: 15px;
+	font-style:inherit;
+	cursor: pointer;
+}
+}
 
 
 }
