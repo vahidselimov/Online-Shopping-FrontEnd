@@ -42,5 +42,5 @@ window.addEventListener('offline', () => {
     }, 1000);
     setTimeout(() => {
         div.style.display = 'none'
-    }, 8000);
+    }, 3000);
 });

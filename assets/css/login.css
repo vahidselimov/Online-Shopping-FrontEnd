@@ -9,6 +9,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .group {
   margin: 20px 0px 20px 0px;
 }

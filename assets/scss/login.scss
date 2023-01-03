@@ -9,14 +9,19 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .group {
   margin: 20px 0px 20px 0px;
 }
-.group.head{
-  p{
-  margin-top: 1%;
-  margin-left: 50px;
-  font-size: 15px;
+
+.group.head {
+  p {
+    margin-top: 1%;
+    margin-left: 50px;
+    font-size: 15px;
   }
 }
 
@@ -103,7 +108,7 @@ label {
 
 .head p {
   margin-top: -20px;
- 
+
   color: gray;
   font-weight: 400;
   padding-bottom: 20px;
@@ -153,20 +158,22 @@ label {
   }
 }
 
-  .admin-connet{
-    a{
-      color:#000;
+.admin-connet {
+  a {
+    color: #000;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+
+    span {
       font-size: 12px;
       font-family: Poppins, sans-serif;
-      span{
-        font-size: 12px;
-        font-family: Poppins, sans-serif;
-        color: #3A7B99;
-        
-      }
-      span:hover{
-        border-bottom: 1px solid #3A7B99;
-      
-      }
+      color: #3A7B99;
+
+    }
+
+    span:hover {
+      border-bottom: 1px solid #3A7B99;
+
     }
   }
+}
