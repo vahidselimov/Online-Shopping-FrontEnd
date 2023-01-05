@@ -21,4 +21,30 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #70afce;
+}
+
+#offline {
+  background: darkred;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+  text-align: center;
+  line-height: 20%;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+#online {
+  background: rgb(48, 165, 48);
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+  text-align: center;
+  line-height: 20%;
+  position: -webkit-sticky;
+  position: sticky;
 }/*# sourceMappingURL=additions.css.map */

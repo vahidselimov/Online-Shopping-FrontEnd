@@ -22,9 +22,15 @@ $('.icones-carousel').slick({
 });
 const div = document.getElementById('offline');
 const div2 = document.getElementById('online');
-
-
-
+window.addEventListener('offline', () => {
+    div2.style.display = 'none'
+    setTimeout(() => {
+        div.style.display = 'block'
+    }, 100);
+    setTimeout(() => {
+        div.style.display = 'none'
+    }, 9000);
+});
 window.addEventListener('online', () => {
     div.style.display = 'none'
     setTimeout(() => {
@@ -32,15 +38,8 @@ window.addEventListener('online', () => {
     }, 1000);
     setTimeout(() => {
         div2.style.display = 'none'
-    }, 3000);
+    }, 5000);
 }
 );
-window.addEventListener('offline', () => {
-    div2.style.display = 'none'
-    setTimeout(() => {
-        div.style.display = 'block'
-    }, 1000);
-    setTimeout(() => {
-        div.style.display = 'none'
-    }, 3000);
-});
+
+

@@ -5,32 +5,6 @@ body {
   box-sizing: border-box;
 }
 
-#offline {
-  background: darkred;
-  color: #fff;
-  padding: 12px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: none;
-  text-align: center;
-  line-height: 20%;
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-#online {
-  background: rgb(48, 165, 48);
-  color: #fff;
-  padding: 12px;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: none;
-  text-align: center;
-  line-height: 20%;
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 header nav .navbar {
   display: flex;
   position: -webkit-sticky;
