@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/register.css">
+
     <title>Qeydiyyat</title>
 </head>
 
-<body  oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+<body oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
     <div class="signin">
         <form action="#" method="post" autocomplete="off">
             <div class="group head">
@@ -20,54 +22,150 @@
 
                 <p>Davam etmək üçün Qeydiyyatdan keçin</p>
             </div>
-            <div class="group"> 
+            <div class="group">
 
 
-                <input type="text" name="username" id="username-field" required placeholder="Name" minlength="3" maxlength="17" />
+                <input type="text" name="username" id="username-field" required placeholder="Name" minlength="3"
+                    maxlength="17" />
 
             </div>
             <div class="group">
-                <input type="text" name="username" id="username-field" required placeholder="FirstName" minlength="5" maxlength="21" />
+                <input type="text" name="username" id="username-field" required placeholder="FirstName" minlength="5"
+                    maxlength="21" />
 
             </div>
             <div class="group">
-                <input type="text" name="username" id="username-field" required placeholder="Username" minlength="4" maxlength="17" />
+                <input type="text" name="username" id="username-field" required placeholder="Username" minlength="4"
+                    maxlength="17" />
             </div>
             <div class="group">
                 <input type="text" name="email" id="username-field" placeholder="Email" required />
             </div>
             <div class="group">
-            
-                <input type="password" name="password" id="password-field" required placeholder="Password" minlength="6" maxlength="25" />
 
-                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                <input type="password" name="password" id="password-field" required placeholder="Password" minlength="6"
+                    maxlength="25" />
+
+                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password" style="z-index: 0;"></span>
             </div>
             <div class="group">
-             
 
-              <input type="password" name="password" id="password-field" required placeholder="ConfirmPassword" minlength="6" maxlength="25" />
 
-              <span toggle="#password-field" class="toggle-password"></span>
-          </div>
-            
+                <input type="password" name="password" id="password-field" required placeholder="ConfirmPassword"
+                    minlength="6" maxlength="25" />
 
+                <span toggle="#password-field" class="toggle-password"></span>
+            </div>
+
+            <div class="terms"><label>
+                    <input type="checkbox" id="btn"><span>Terms & Conditions</span></label></div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p style="color: red;">Zehmet olmasa diqqetle oxuyun</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut explicabo molestiae, est
+                        voluptatibus sapiente et ab, officia vel beatae id quibusdam voluptatum, repellat laboriosam
+                        animi ea aliquid. Suscipit quibusdam facilis repudiandae aperiam pariatur a culpa ex, eligendi
+                        eaque ab corrupti eos quia fuga ea? Eos quasi illo quibusdam nemo accusamus. Quasi praesentium
+                        voluptatibus a deleniti, assumenda iste, et dolore corrupti consectetur veritatis corporis quos.
+                        Voluptatibus eligendi inventore dolorum exercitationem blanditiis molestias aliquam corporis
+                        quis in. Recusandae vel molestias voluptas minima excepturi accusantium aspernatur culpa
+                        deserunt sequi quidem hic sit corrupti, ex atque voluptatum facere illo numquam, iste dolore et.
+                        Repudiandae sit adipisci esse inventore fugiat nulla necessitatibus qui quae? Accusantium
+                        molestias harum odio, consectetur quis magni, odit sit iusto obcaecati dignissimos autem quae
+                        pariatur deserunt. Molestias inventore, reprehenderit deserunt in laboriosam maiores adipisci
+                        amet perferendis atque sapiente cumque ad temporibus beatae magni pariatur officiis sed.
+                        Reprehenderit eveniet quod dignissimos doloremque labore ad repudiandae? Nulla in fuga
+                        laudantium aut, eveniet sint voluptatem illo impedit reiciendis perspiciatis delectus aliquid
+                        nisi, illum, tenetur perferendis iure pariatur accusamus obcaecati. Velit nam unde accusantium,
+                        aliquam alias et? Temporibus debitis tempore reiciendis consequuntur aut ipsam quisquam, veniam
+                        nostrum deleniti velit quod, ex minus hic aspernatur dolores eos sequi? Dolorem, facere ipsum
+                        sequi atque, adipisci earum nostrum autem illum nesciunt aut ratione magni vero modi doloribus
+                        expedita praesentium quas? Fuga, beatae! At harum provident inventore nam asperiores quisquam
+                        quam, quo expedita quis eligendi aspernatur assumenda, itaque consectetur architecto ab illo
+                        nesciunt, dolores minus! Dolor maxime porro ex qui provident, voluptates quam nam, saepe labore
+                        debitis minima impedit? Esse ipsa quisquam iste illo enim ipsum blanditiis perspiciatis quod
+                        possimus molestiae, excepturi odio sunt repudiandae nisi delectus nobis accusantium
+                        exercitationem aut dolorum veniam quae tempora adipisci deleniti. Delectus voluptates ut
+                        excepturi tempore nihil, sunt, necessitatibus labore omnis unde reprehenderit et! Suscipit
+                        excepturi adipisci non, dicta autem ullam, nihil minima eaque tenetur est dolores illum nesciunt
+                        dolore, ex commodi totam quibusdam! Nam, rem incidunt eveniet provident maxime ab. Incidunt iste
+                        distinctio eligendi autem dicta aspernatur, expedita temporibus totam maiores ducimus voluptatem
+                        deleniti quo nam sint dolores suscipit fugit at ea veniam unde labore asperiores rerum eum?
+                        Corporis sunt qui recusandae? Deserunt, vitae consectetur magnam velit laborum voluptates
+                        necessitatibus, sunt in animi, pariatur facilis similique quasi et repudiandae sequi molestias
+                        nulla illum modi. Quaerat culpa iure veritatis praesentium debitis maiores, libero
+                        exercitationem quisquam laboriosam quia architecto nemo eveniet saepe! Vitae nobis corporis fuga
+                        est dicta pariatur tempora excepturi natus iste quaerat quasi, dolorem voluptatibus, tenetur
+                        quas mollitia officiis, odit enim rerum blanditiis maiores. A facere tenetur esse inventore
+                        alias, neque sint tempora quibusdam quaerat ratione pariatur nulla recusandae nostrum libero
+                        dolorem doloremque distinctio error animi sunt officiis quo odio consequatur. Delectus beatae
+                        non facere corrupti obcaecati illo accusamus quas laudantium omnis ex maxime repudiandae,
+                        veritatis magni ullam autem magnam? Aperiam ipsam doloremque enim facere officiis error! Hic
+                        vero ab quos officiis pariatur exercitationem debitis, at et tenetur similique corporis ratione
+                        possimus laudantium nemo blanditiis explicabo accusamus perspiciatis cupiditate accusantium, a
+                        distinctio sed architecto totam placeat! Eos porro doloremque consequatur neque necessitatibus
+                        quasi corrupti! Et distinctio repellendus dicta voluptas, quis est voluptates quidem totam ipsa
+                        quasi, beatae ab velit numquam blanditiis voluptate? Quaerat omnis vel impedit incidunt saepe
+                        voluptate eveniet, rerum recusandae sint expedita corporis porro minus similique molestiae,
+                        autem distinctio quam enim dignissimos, corrupti doloribus necessitatibus ipsum nesciunt!
+                        Aliquam, dolorum odit! Beatae saepe minima nemo vel animi dolores libero! Ut officiis, suscipit
+                        velit aliquam, alias consectetur sed aut veniam debitis doloribus atque natus repellendus vero,
+                        voluptas libero possimus est inventore vitae? Quas repudiandae tempora vel aliquid saepe ipsa
+                        quisquam ratione consequatur deleniti temporibus asperiores minima libero vitae sunt magnam, eum
+                        ipsum, qui pariatur vero voluptatum ullam iure et minus? Totam aliquid, ullam explicabo odio,
+                        asperiores, non quam unde sapiente perspiciatis ea fugit. Placeat quam mollitia delectus ipsa,
+                        cupiditate fugiat sit odit id dolorem, tempora reiciendis reprehenderit dolores atque
+                        praesentium? Consequuntur vel ratione deserunt saepe quam ab. Ullam cum, esse quibusdam vero
+                        eveniet perspiciatis debitis totam eum explicabo, dolores voluptates impedit id sequi architecto
+                        nobis odit consequuntur, sed molestias quos quo ipsa dicta magni iste maxime? Recusandae facere
+                        veritatis dicta, sit animi neque deserunt doloremque totam obcaecati voluptatem quidem nam nobis
+                        dignissimos quae perferendis quibusdam sed inventore ea expedita. Corporis doloremque corrupti
+                        fugit impedit nesciunt quia quisquam nulla eveniet. Consequuntur facere a non ducimus sint
+                        aliquid fuga asperiores deleniti deserunt atque quibusdam ratione libero quo dolore sapiente
+                        quia harum suscipit culpa, iste optio possimus eligendi aliquam sed? Earum, minus nulla laborum
+                        est dolorem veritatis eveniet quis, unde rem quibusdam sequi aliquam? Soluta eligendi voluptate
+                        commodi suscipit quas, mollitia, quasi facilis optio, adipisci modi nesciunt nostrum labore.
+                        Nisi similique cum, esse dolore iusto facere ex adipisci ad hic molestiae sit ipsum nobis
+                        tempore tempora. Expedita accusantium temporibus eius est quidem a distinctio quasi vitae? Quia
+                        in, voluptates ratione incidunt illum ducimus iure repudiandae culpa fuga animi quidem repellat
+                        debitis excepturi eos. Dolore officiis distinctio hic corporis nobis consectetur incidunt minus
+                        fuga dicta dolor doloribus aliquam harum nemo deserunt quod, veniam fugiat quisquam in
+                        praesentium possimus laborum ducimus libero quia commodi. Qui cumque ipsa quia tempore quidem
+                        corporis non minus minima laborum quo. Minima dolorum hic in quibusdam sapiente, illum atque
+                        similique amet necessitatibus blanditiis ab perspiciatis cum dicta quo neque natus totam
+                        corporis, qui repudiandae unde tempora. Ex ipsum ipsa hic, accusamus perspiciatis eveniet dolore
+                        nisi porro harum facere quod eius autem. Voluptatem hic repudiandae debitis, sapiente qui, harum
+                        ipsam quo earum reiciendis laborum id nulla, quis non vel. Aperiam sunt atque voluptate! Quos
+                        maxime, fugiat eius veritatis facere praesentium sunt explicabo, illum omnis dolores ratione in
+                        nostrum repellat esse temporibus natus. Qui quibusdam exercitationem, consectetur numquam
+                        veritatis nisi magnam id aperiam quos eius quam tenetur dicta, nemo fuga facere eveniet
+                        accusamus perferendis. Reiciendis quibusdam placeat eius nulla quo doloribus eligendi facere
+                        quos odit distinctio earum fugit minus ex exercitationem est asperiores totam cupiditate, iste
+                        deserunt modi rerum ipsum similique quia! Debitis laborum quam velit quibusdam sunt assumenda
+                        odio eius ipsum aperiam!</p>
+                </div>
+            </div>
             <div class="group">
                 <button type="submit"><span style="color: #fff;">Qeydiyyatdan keç</span></button>
             </div>
 
             <div class="group sign-up-link">
                 <p>Hesabınız var? <a href="../Html/login.html" style="color:#3a7b99 ;">Hesaba Daxil Ol</a></p>
-            </div> 
+            </div>
         </form>
         <div class="admin-connet">
-            <a href="../contact-form-03/index.html"> <p>Problem Yaşayırsınız?<span>  Adminlə və yaxud SuperAdminlə Əlaqə saxlayın</span></p></a>
-         </div>
+            <a href="../contact-form-03/index.html">
+                <p>Problem Yaşayırsınız?<span> Adminlə və yaxud SuperAdminlə Əlaqə saxlayın</span></p>
+            </a>
+        </div>
     </div>
-    
+
 </body>
 
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="../assets/javascript/extracode.js"></script>
 <script src="../assets/javascript/login.js"></script>
 
 
